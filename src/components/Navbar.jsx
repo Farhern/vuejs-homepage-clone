@@ -1,18 +1,19 @@
 import React from 'react';
 import { AiOutlineSearch, AiOutlineDown } from 'react-icons/ai';
 import { BsGithub, BsTwitter, BsDiscord } from 'react-icons/bs';
-import { FaVuejs } from 'react-icons/fa';
 import { LuLanguages } from 'react-icons/lu';
+import Profile from '../images/profile.png';
 
 const Navbar = () => {
   return (
-   <div className='w-full h-[60px] p-4 flex items-center justify-between sm:flex border-b border-gray-800 fixed top-0 bg-opacity-0'>
+   <div className={'w-full h-[60px] p-4 flex items-center justify-between sm:flex border-b border-gray-800'}>
     <div className='flex items-center ml-5 cursor-pointer mr-0'>
-      <FaVuejs
-        className='text-green-400'
-        size={30} 
-      />
-    <h1 className='text-gray-100 ml-2'>Vue.js</h1>
+     <img 
+       className='w-9'
+       src={Profile} 
+       alt="/" 
+     />
+    <h1 className='text-gray-100 ml-1'>Vue.js</h1>
     </div>
     <div className='bg-black/5 text-sm flex items-center rounded-full px-2 w-[60px] sm:w-[100px] lg:w-[110px]'>
       <AiOutlineSearch 
