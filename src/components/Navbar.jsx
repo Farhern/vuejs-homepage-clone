@@ -6,7 +6,7 @@ import Profile from '../images/profile.png';
 
 const Navbar = () => {
   return (
-   <div className={'w-full h-[60px] p-4 flex items-center justify-between sm:flex border-b border-gray-800'}>
+   <div className='w-full h-[60px] p-4 flex items-center justify-between sm:flex border-b md:fixed border-gray-800'>
     <div className='flex items-center ml-5 cursor-pointer mr-0'>
      <img 
        className='w-9'

@@ -13,10 +13,21 @@ body{
     @apply transition-transform duration-300 hover:translate-x-1;
   }
 
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f13c;
+  }
+
   ::-webkit-scrollbar {
-    background-color: rgba(0, 0, 0, 0.259);
+    background-color: #00000057;
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #888;
+    background-color: #f1f1f13c;
   }
+
+  ::-webkit-scrollbar-button {
+    background-color: #ccc;
+    width: 12px;
+    height: 12px;
+  }
+
