@@ -3,7 +3,7 @@ import { SiAppwrite } from 'react-icons/si';
 
 const Sponsors = () => {
   return (
-    <div className='grid p-5 text-sm md:flex items-center justify-center text-gray-500 md:p-4 border-b border-gray-700 font-semibold'>
+    <div className='md:h-[60px] grid p-5 text-sm md:flex items-center justify-center text-gray-500 md:p-4 border-b border-gray-700 font-semibold'>
       <div className='md:mr-5 mb-1 ml-6'>
         <p className='text-sm'>Special Sponsor</p>
       </div>

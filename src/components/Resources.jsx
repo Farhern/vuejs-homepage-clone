@@ -3,9 +3,9 @@ import { BsArrowUpRight } from 'react-icons/bs';
 
 const Resources = () => {
   return (
-    <div className='w-full h-[1000] lg:h-[550px] bg-neutral-800 flex justify-center'>
-     <div className='-ml-20 tracking-wide'>
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-2  gap-4 p-5 mt-10'>
+    <div className='w-full h-[1000] lg:h-[570px] bg-neutral-800 flex justify-center'>
+     <div className='-ml-[110px]'>
+      <div className='grid grid-cols-1 text-sm sm:grid-cols-2 md:grid-cols-3 md:grid-rows-2  gap-4 p-5 mt-10'>
         <div className='justify-center items-center mb-3 mr-10'>
             <h1 className='text-gray-100 text-lg mb-2 font-semibold'>Docs</h1>
             <ul className='text-neutral-400 cursor-pointer font-sans'>
