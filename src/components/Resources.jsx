@@ -3,8 +3,8 @@ import { BsArrowUpRight } from 'react-icons/bs';
 
 const Resources = () => {
   return (
-    <div className='w-full h-[1000] lg:h-[570px] bg-neutral-800 flex justify-center'>
-     <div className='-ml-[110px]'>
+    <div className='w-full h-[1300px] lg:h-[570px] bg-neutral-800 flex justify-center'>
+     <div className='-ml-[150px]'>
       <div className='grid grid-cols-1 text-sm sm:grid-cols-2 md:grid-cols-3 md:grid-rows-2  gap-4 p-5 mt-10'>
         <div className='justify-center items-center mb-3 mr-10'>
             <h1 className='text-gray-100 text-lg mb-2 font-semibold'>Docs</h1>
@@ -18,7 +18,7 @@ const Resources = () => {
                 <li className='flex items-center'>Migration from Vue 2 <BsArrowUpRight className='text-sm ml-1' size={10} /></li>
             </ul>
         </div>
-        <div className='justify-center items-center md:ml-[50px] mr-10 -mb-5'>
+        <div className='justify-center items-center md:ml-[50px] mb-5 mr-10 md:-mb-5'>
             <h1 className='text-gray-100 font-semibold text-lg mb-2'>Resources</h1>
             <ul className='text-neutral-400 cursor-pointer font-sans'>
                 <li className='mb-1'>Partners</li>
@@ -28,7 +28,7 @@ const Resources = () => {
                 <li className='flex items-center'>T-Shirt Shop <BsArrowUpRight className='text-sm ml-1' size={10} /></li>
             </ul>
         </div>
-        <div className='sm:ml-[100px]'>
+        <div className='mb-5 sm:ml-[100px]'>
             <h1 className='text-gray-100 font-semibold text-md mb-2'>Help</h1>
             <ul className='text-neutral-400 cursor-pointer font-sans'>
                 <li className='flex items-center mb-1'>Discord Chat <BsArrowUpRight className='text-sm ml-1' size={10} /></li>
@@ -37,7 +37,7 @@ const Resources = () => {
             </ul>
         </div>
        
-        <div className='mr-10 md:mt-[20px]'>
+        <div className='mr-10 md:mt-[20px] mb-5'>
             <h1 className='text-gray-100 font-semibold text-md mb-2'>About</h1>
             <ul className='text-neutral-400 cursor-pointer font-sans'>
                 <li className='mb-1'>FAQ</li>
@@ -48,7 +48,7 @@ const Resources = () => {
                 <li className='flex items-center'>The Documentary <BsArrowUpRight className='text-sm ml-1' size={10} /></li>
             </ul>
         </div>
-        <div className='sm:ml-10 md:ml-[50px] md:mb-0 md:-mt-9'>
+        <div className='mb-5 sm:ml-10 md:ml-[50px] md:mb-0 md:-mt-9'>
             <h1 className='text-gray-100 font-semibold text-md mb-2'>Official Libraries</h1>
             <ul className='text-neutral-400 cursor-pointer font-sans'>
                 <li className='flex items-center mb-1'>Vue Router <BsArrowUpRight className='text-sm ml-1' size={10} /></li>
@@ -68,7 +68,7 @@ const Resources = () => {
         </div>
        
       </div>
-      <div className='grid grid-col-1 -ml-[40px] -mt-[140px] md:justify-center items-center'>
+      <div className='mt-6 ml-5 grid grid-col-1 sm:-ml-[40px] sm:-mt-[140px] md:justify-center items-center'>
             <h1 className='text-gray-100 text-md font-semibold mb-2'>Video Courses</h1>
             <ul className='text-neutral-400 cursor-pointer font-sans'>
                 <li className='flex items-center mb-1'>Vue Mastery <BsArrowUpRight className='text-sm ml-1' size={10} /></li>

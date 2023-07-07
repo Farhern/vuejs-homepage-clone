@@ -2,7 +2,7 @@ import React from 'react';
 
 const Description = () => {
   return (
-    <div className='w-full h-[700px] md:h-[450px] md:flex justify-center'>
+    <div className='w-full h-[750px] md:h-[450px] md:flex justify-center'>
       <div className='md:max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 md:p-5 mt-10'>
        
         <div className='md:w-[200px] px-[60px] py-4 pb-10 md:justify-center items-center'>
