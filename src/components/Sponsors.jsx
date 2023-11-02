@@ -12,7 +12,7 @@ const Sponsors = () => {
         <p>app<span className='font-bold text-gray-400'>write</span></p>
       </div>
       <div className='md:ml-0 -ml-10 mb-1'>
-        <p>Build Fast. Scale Big. All in One Place.</p>
+        <p>Build like a team of hundreds_</p>
       </div>
     </div>
   )

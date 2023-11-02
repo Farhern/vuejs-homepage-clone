@@ -1,6 +1,7 @@
 import React from 'react';
 import { RiVideoFill } from 'react-icons/ri'
-import { AiOutlineArrowRight } from 'react-icons/ai';
+import { AiOutlineArrowRight } from 'react-icons/ai';;
+
 
 const Hero = () => {
   return (

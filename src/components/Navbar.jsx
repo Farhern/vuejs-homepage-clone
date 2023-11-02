@@ -6,7 +6,7 @@ import Profile from '../images/profile.png';
 
 const Navbar = () => {
   return (
-   <div className='w-full h-[60px] p-4 flex items-center justify-between sm:flex border-b md:fixed border-gray-800'>
+   <div className='w-full h-[55px] p-4 flex items-center justify-between sm:flex border-b md:fixed border-gray-800'>
     <div className='flex items-center ml-5 cursor-pointer mr-0'>
      <img 
        className='w-9'
@@ -30,7 +30,7 @@ const Navbar = () => {
         </form>
     </div>
         <div className='ml-0 mr-40'>
-           <button className='text-gray-400 text-sm/3 rounded-md border border-gray-400 p-1'>Ctrl K</button>
+           <button className='text-gray-400 text-sm/3 rounded-md border border-gray-400 hover:border-green-600 hover:text-green-600 p-1 -ml-14'>Ctrl K</button>
         </div>
     
     <div className='text-gray-200 flex text-sm/5 cursor-pointer'>
